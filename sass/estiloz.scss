@@ -1,0 +1,31 @@
+@import "generales";
+@import "nav";
+@import "parrafo";
+@import "media";
+
+
+.intro{
+    text-align: center;
+    justify-content: center;
+}
+
+
+.historia{
+    text-align: center;
+    letter-spacing: 3px;
+    font-style: italic;
+}
+
+.tripulacion{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3,2fr);
+    grid-template-rows: repeat(2,2fr);
+    text-align: center;
+    font-weight: bolder;
+}
+
+.servicios{
+    text-align: center;
+    justify-content: center;
+}

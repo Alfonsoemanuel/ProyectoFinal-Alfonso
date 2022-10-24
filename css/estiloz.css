@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: grid;
+  justify-content: center;
+}
+header .logo {
+  text-align: center;
+}
+
+body {
+  background-color: #408975;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.redes {
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+}
+.redes ul {
+  list-style: none;
+}
+.redes ul li {
+  display: inline-block;
+}
+.redes ul li .facebook:hover {
+  transform: scale(3);
+}
+.redes ul li .facebook:hover .instagram:hover {
+  transform: scale(3);
+}
+.redes ul li .facebook:hover .instagram:hover .twitter:hover {
+  transform: scale(3);
+}
+
+.oscuro {
+  background-color: red;
+  width: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 10px 500px 100px 500px;
+}
+
+p {
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+@media (min-width: 500px) {
+  .logo {
+    grid-template-columns: 1fr 1fr;
+  }
+  .historia {
+    grid-template-columns: 1fr;
+    grid-row: 6 1fr;
+  }
+  .tripulacion {
+    grid-template-columns: 1fr;
+    grid-row: 6 1fr;
+  }
+  .servicios {
+    grid-template-columns: 1fr;
+    grid-row: 3 1fr;
+  }
+}
+@media (min-width: 768) {
+  .logo {
+    grid-template-columns: 1fr 1fr;
+  }
+  .historia {
+    grid-template-columns: 1fr 1fr;
+    grid-row: 2 2fr 2fr;
+  }
+}
+.intro {
+  text-align: center;
+  justify-content: center;
+}
+
+.historia {
+  text-align: center;
+  letter-spacing: 3px;
+  font-style: italic;
+}
+
+.tripulacion {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: repeat(2, 2fr);
+  text-align: center;
+  font-weight: bolder;
+}
+
+.servicios {
+  text-align: center;
+  justify-content: center;
+}/*# sourceMappingURL=estiloz.css.map */

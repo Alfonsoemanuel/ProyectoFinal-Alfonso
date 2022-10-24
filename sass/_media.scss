@@ -1,0 +1,32 @@
+@media(min-width:500px){
+    .logo{
+    grid-template-columns: 1fr 1fr;
+    }
+
+    .historia{
+        grid-template-columns: 1fr ;
+        grid-row: 6 1fr;
+    }
+
+    .tripulacion{
+        grid-template-columns: 1fr ;
+        grid-row: 6 1fr;
+    }
+
+    .servicios{
+        grid-template-columns: 1fr;
+        grid-row: 3 1fr;
+    }
+
+}
+
+@media(min-width:768){
+    .logo{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .historia{
+        grid-template-columns: 1fr 1fr;
+        grid-row: 2 2fr 2fr;
+    }
+    }
