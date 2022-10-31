@@ -17,33 +17,6 @@
         grid-template-columns: 1fr;
         grid-row: 3 1fr;
     }
-
-    .alcanzacosas{
-        border: 2px solid black;
-        justify-content: center;
-        text-align: center;
-    }
-    .trebol{
-        border: 2px solid black;
-        justify-content: center;
-        text-align: center;
-    }
-    .mordelon{
-        border: 2px solid black;
-        justify-content: center;
-        text-align: center;
-    }
-    .olomofono{
-        border: 2px solid black;
-        justify-content: center;
-        text-align: center;
-    }
-    .lego{
-        border: 2px solid black;
-        justify-content: center;
-        text-align: center;
-    }
-
 }
 
 @media(min-width:768px){
@@ -69,6 +42,6 @@
         .cosas{
             display:grid;
             grid-template-columns: 600px 650px 650px;
-            grid-template-rows: 550px 550px 550px;
+            grid-template-rows: 550px 550px;
         }
     }
